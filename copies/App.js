@@ -1,5 +1,5 @@
 import React from 'react'
-import State from './components/State'
+import Comp from './components/comp.jsx'
 
 class App extends React.Component{
     
@@ -7,8 +7,7 @@ class App extends React.Component{
         return <div>
             <h1>App component</h1>
          
-            
-            <State/>
+            <Comp/>
             
         </div>
     }
